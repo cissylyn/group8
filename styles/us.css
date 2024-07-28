@@ -1,0 +1,24 @@
+@media screen and (max-width:500px) {
+    
+    .slideshow-text {
+        position: absolute;
+        color: transparent;
+        font-size: 2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 59%;
+        text-decoration: none;
+        -webkit-text-size-adjust: 8%;
+        text-indent: 0%;
+        -webkit-text-stroke: 1px #fff;
+        background-image: url(holy.jpg);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: backwards 50s linear infinite;
+        animation-name: back;
+    }
+    @keyframes back {
+        100% {
+            background-position: 2000px 0;
+        }
+    }
+}
